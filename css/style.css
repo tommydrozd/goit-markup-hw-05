@@ -243,17 +243,18 @@ button:hover {
   transform: translateY(0%);
 }
 
-.link-block:hover .portfolio-element-text:hover,
-.link-block:focus .portfolio-element-text:focus {
-  transform: transleteY(0%);
+.overlay:hover {
+  transform: translateX(0);
 }
+
+
 
 .obraz-aplikacji {
   position: relative;
   overflow: hidden;
 }
 
-.portfolio-element-text {
+.overlay {
   position: absolute;
   top: 0;
   font-family: Roboto;
@@ -266,8 +267,7 @@ button:hover {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  transition: transform; 
-  transition-duration: 250ms;
+  transition: transform 250ms;
   transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
