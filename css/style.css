@@ -656,7 +656,6 @@ button:hover {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .button-modal:hover {
@@ -664,10 +663,11 @@ button:hover {
   background-color: #404bbf;
   border: none;
 }
-.button-modal:focus {
+.button-modal:focus::after {
   fill: #ffffff;
   background-color: #404bbf;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .svg-button-modal-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -709,6 +709,7 @@ button:hover {
   top: 0;
   font-size: 16px;
   line-height: 1.5; 
+  font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--background-color2);
   padding: 40px 32px;
