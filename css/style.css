@@ -720,11 +720,11 @@ button:hover {
 }
 
 
-.portfolio-list-elements:hover .overlay-text {
+.overlay-text:hover {
   transform: translateY(0%);
 }
 
-.portfolio-list-elements:focus .overlay-text {
+.overlay-text:focus {
   transform: translateY(0%);
 }
 
