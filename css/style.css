@@ -548,6 +548,7 @@ button:hover {
   justify-content: center; 
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .a-social:hover {
@@ -587,6 +588,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   color: var(--customer-logo);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-logo:hover {
