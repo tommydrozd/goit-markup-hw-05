@@ -725,7 +725,7 @@ button:hover {
 
 
 .portfolio-list-elements:hover .overlay-text, 
-.portfolio-list-elements:focus .overlay-text {
+.portfolio-list-elements:active .overlay-text {
   transform: translateY(0%);
 }
 
