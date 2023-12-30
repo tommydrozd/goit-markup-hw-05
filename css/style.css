@@ -735,3 +735,6 @@ button:hover {
 .link-transition:focus {
   transform: translateY(0%);
 }
+.link-transition:focus {
+  transform: translateY(0%);
+}
