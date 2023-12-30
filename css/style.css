@@ -724,7 +724,8 @@ button:hover {
 }
 
 
-.portfolio-list-elements:hover .overlay-text, .portfolio-list-elements:focus .overlay-text {
+.portfolio-list-elements:hover .overlay-text, 
+.portfolio-list-elements:focus .overlay-text {
   transform: translateY(0%);
 }
 
@@ -732,9 +733,6 @@ button:hover {
  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-transition:focus {
-  transform: translateY(0%);
-}
 .link-transition:focus {
   transform: translateY(0%);
 }
