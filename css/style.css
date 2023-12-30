@@ -224,13 +224,14 @@ button:hover {
   color: var(--logo-studio);
 }
 
-.pxtest {
-}
-
 .link-block {
+<<<<<<< HEAD
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+=======
+  display: block;
+>>>>>>> parent of eccbad9 (Update style.css)
 }
 
 .link-block:hover {
@@ -243,29 +244,9 @@ button:hover {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.overlay:hover {
-  transform: translateX(0);
-}
-
 .obraz-aplikacji {
   position: relative;
   overflow: hidden;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: var(--iris);
-  padding: 40px 32px;
-  transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: var(--ocean);
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  width: 100%;
-  height: 100%;
-  flex-shrink: 0;
 }
 
 
@@ -546,10 +527,12 @@ button:hover {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-elements {
   width: calc((100% - 48px) / 3);
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-elements-div {
