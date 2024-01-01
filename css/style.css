@@ -673,7 +673,7 @@ button:hover {
   border: none;
 }
 .svg-button-modal-close {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: color 0ms background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-button-modal-close:hover {
@@ -683,8 +683,10 @@ button:hover {
   transition: fill 0ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-modal-transition {
-  transition: fill 0ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .current-link {
   text-decoration: none;
